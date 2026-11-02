@@ -3,3 +3,8 @@
   min-height: 100vh;
   min-height: 100dvh;
 }
+.thumbnails {
+  position: relative;
+  width: var(--thumb-width);
+  aspect-ratio: var(--photo-ratio);
+}
